@@ -56,7 +56,7 @@ def prediction(model, index, scaler,scaled_data,df):
             results.append([float(prediction[0][0]),float(((prediction[0][0]-results[len(results)-1][0])/results[len(results)-1][0])*100)])
     previous = []
     for i in range(6,-1,-1):
-        previous.append([float(df.iloc[index-6]['price']),float(((df.iloc[index-i]['price']-df.iloc[index-i-1]['price'])/df.iloc[index-i-1]['price'])*100)])
+        previous.append([float(df.iloc[index-i]['price']),float(((df.iloc[index-i]['price']-df.iloc[index-i-1]['price'])/df.iloc[index-i-1]['price'])*100)])
     
     return {"predictions":results,"previous":previous}
     
