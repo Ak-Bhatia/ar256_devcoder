@@ -1,0 +1,119 @@
+.app{
+    width:100vw;
+    min-height:100vh;
+    display: flex;
+    
+
+}
+
+
+.sidebar{
+    flex-basis: 80px;
+    width:80px;
+    height:100%;
+}
+.main{
+    flex:1;
+    min-height: 100%;
+    position: relative;
+}
+
+.border{
+    border:1px solid black;
+}
+
+
+.sider{
+    position: fixed;
+    z-index:80;
+    width:280px;
+    height:100%;
+    top:0;
+    left:0;
+    transform: translateX(-200px);
+    
+    background: #215451;
+    box-shadow: 2px 0px 10px 1px rgba(0, 0, 0, 0.34);
+    transition: 0.5s;
+}
+.sider:hover{
+    transform: translateX(0);
+}
+
+.sider .item{
+    padding:10px;
+
+    padding-right: 0px;
+    background: #2D7470;
+    color: rgba(255, 255, 255, 0.61);
+    text-align: right;
+    cursor:pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    transition: 0.3s;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.sider .item:hover,.sider .item.active{
+    background: #24D088;
+    color: #125438;
+    
+}
+
+.sider .item .nav-icon{
+    display: inline-block;
+    font-size: 36px;
+    width:80px;
+    margin-left:5px;
+    text-align: center;
+
+}
+
+.title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h4{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+
+
+/* GLobal styles */
+.pointer{
+    cursor: pointer;
+}
+.btn-outline-green{
+    background-color: transparent;
+    border: 2px solid #0D8351;
+    color: #0D8351;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+.btn-outline-green:hover{
+    background: #0D8351;
+    color: white;
+}
+.bg-green{
+    background: #0D8351;
+}
+
+.topbar{
+    background: #24D088;
+    color: #125438;
+}
