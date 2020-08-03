@@ -2,7 +2,7 @@
  
  #### All the best models that are finalized, can be seen in the folder "final used models".
  
- #### For Market Trend of Cotton, instead of jujst predicting prices of cotton , we have also forecasted various aspects of cotton, such as PRODUCTION, CONSUMPTION, IMPORT, EXPORT, OIL PRICES using ARIMA model(best Time-series model for Forecasting)
+ #### For Market Trend of Cotton, instead of just predicting prices of cotton , we have also forecasted various aspects of cotton, such as PRODUCTION, CONSUMPTION, IMPORT, EXPORT, OIL PRICES using ARIMA model(best Time-series model for Forecasting)
  
  #### We have predicted price and trend using three models i.e LSTM, Ada Booster, XGB Booster
  
