@@ -4,6 +4,7 @@ import {Line} from 'react-chartjs-2';
 import Axios from 'axios';
 import loaderImg from "../fluid-loader.gif";
 import monthMap from "./dateMap";
+import Monthly from './monthly';
 
 function Price(props) {
     const [dailyActive,setDailyActive] = useState( true );
@@ -194,7 +195,7 @@ function Price(props) {
                                         <thead style={{boxShadow:"0px 4px 8px rgba(0,0,0,0.5)"}}>
                                             <tr>
                                                 <th>Date</th>
-                                                <th>Price </th>
+                                                <th>Price(per Bales) </th>
                                                 <th>Change % </th>
                                             </tr>
                                         </thead>
@@ -216,7 +217,7 @@ function Price(props) {
                             
                         </div>
                     </Card>
-                ):"Monthly Active"}
+                ):<Monthly/>}
             </div>
         </div>
         <div className="col-6" >
