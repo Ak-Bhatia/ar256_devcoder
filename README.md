@@ -14,5 +14,5 @@
 In this notebook we are applying Deep Learning model RNN - LSTM to find the trends in the cotton prices and predict the price based on that trend
 
 ## Web App Design
-   For Web App we started with designing the web app in figma link for prototype is:
-    https://www.figma.com/proto/u3VgtoqxeG99ET9BQg9sIP/Sih?node-id=1%3A2&scaling=scale-down
+   For Web App: wizardly-euler-24c158.netlify.app/
+    
